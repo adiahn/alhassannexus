@@ -54,13 +54,13 @@ const Contact = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-          <div data-aos="fade-right">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+          <div data-aos="fade-right" className="mb-12 lg:mb-0">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <ContactItem 
                 icon={<MapPin />} 
                 title="Office Address" 
-                content="[Office Location Placeholder]" 
+                content="Shagari Lowcost, Katsina, Katsina State" 
               />
               <ContactItem 
                 icon={<Phone />} 
@@ -107,7 +107,7 @@ const Contact = () => {
           </div>
           
           <div data-aos="fade-left">
-            <div className="bg-white rounded-xl shadow-xl p-8 border border-gray-100">
+            <div className="bg-white rounded-xl shadow-xl p-8 border border-gray-100 min-h-[520px] flex flex-col justify-between">
               <h3 className="text-xl font-bold text-navy-900 mb-6">Send Us a Message</h3>
               
               <form className="space-y-4">
